@@ -23,7 +23,7 @@ $.each(letters, function(key, value) {
     var lettersBtn = $("<button class='letter-button letter letter-button-color'>" + value + "</div>");
     lettersBtn.attr("data-letter", letters[value])
     $("#computerGuess").append(lettersBtn);
-    console.log(lettersBtn)
+    
     
     
 
